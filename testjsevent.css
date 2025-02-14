@@ -40,7 +40,7 @@
   border: none;
   outline: none;
   cursor: pointer;
-  transition: all 1s;
+  transition: all 0.5s;
   font-size: 18px;
 }
 #btnYes {
