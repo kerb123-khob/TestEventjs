@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+.container .boximg {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container .boximg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.container .question {
+  position: absolute;
+  left: 47%;
+  top: 45%;
+}
+.container button {
+  position: absolute;
+  top: 55%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 1s;
+  font-size: 18px;
+}
+#btnYes {
+  left: 47%;
+  background-color: rgb(29, 184, 29);
+}
+#btnNo {
+  left: 55%;
+  background-color: red;
+}
